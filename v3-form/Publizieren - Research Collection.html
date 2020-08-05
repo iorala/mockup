@@ -292,8 +292,51 @@
                             </div>
                             <fieldset id="aspect_submission_StepTransformer_list_submit-upload-new" class="">
                                 <div class="checkbox">
-                                    <span class="radioAndCheckBoxLabel"><input name="big-files" id="aspect.submission.StepTransformer.field.big-files" title="big-files" type="checkbox"><label for="aspect.submission.StepTransformer.field.big-files">Grosse Datenmengen hochladen (Dateien > 10 GB, Einträge > 50 GB total)</label></span>
+                                    <span class="radioAndCheckBoxLabel"><input name="big-files" id="aspect.submission.StepTransformer.field.big-files" title="big-files" type="checkbox" checked=""><label for="aspect.submission.StepTransformer.field.big-files">Grosse Datenmengen hochladen (Dateien > 10 GB, Einträge > 50 GB total)</label></span>
                                 </div>
+                                
+                                 <li class="unstyled-list-item">
+        <div class="ds-form-item row">
+            <div class="control-group col-sm-12">
+                Grosse Datenmengen können Sie über unsere Plattform <a>Libdrive</a> veröffentlichen. Die Daten werden mit dem Eintrag in der Research Collection verknüpft. Füllen Sie dafür die untenstehende Angaben aus und schliessen Sie die Veröffentlichung ab. Sie werden von uns ein E-Mail mit dem Link zum Upload ihrer Daten erhalten.  Mehr Information finden Sie in unserem <a href="https://documentation.library.ethz.ch/display/RC">Handbuch</a>.</div>
+        </div>
+    </li>
+    <li class="unstyled-list-item">
+        <div class="ds-form-item row">
+            <div class="control-group col-sm-12">
+                <label for="aspect_submission_StepTransformer_field_description" class="control-label bold ">Datenvolumen in GB:</label><input id="aspect_submission_StepTransformer_field_description" class="ds-text-field form-control" name="description" type="text" title="Wenn Sie dieses Feld leer lassen, wird den Nutzern im Download-Bereich der komplette Dateiname angezeigt. Wenn Sie für die Anzeige eine sprechendere Bezeichnung verwenden möchten, geben Sie diese hier ein." maxlength="524288" aria-label="Anzeige/Label (nur für Forschungsdaten)" value="">
+                <p class="help-block">
+                    Bitte geben Sie die Menge an Forschungsdaten an, welche Sie veröffentlichen möchten. Wir werden Ihnen dann den entsprechenden Platz auf dem Server zur Verfügung stellen. 
+
+                </p>
+            </div>
+        </div>
+    </li>
+    <li class="unstyled-list-item">
+        <div id="aspect_submission_StepTransformer_item_file-access-header" class="ds-form-item row table file-access-header h4">
+            <div class="control-group col-sm-12">Dateizugriff</div>
+        </div>
+    </li>
+    <li class="unstyled-list-item">
+        <div id="aspect_submission_StepTransformer_item_file-access" class="ds-form-item row table file-access">
+            <div class="control-group col-sm-12">
+                <fieldset>
+                    <legend class="hidden-accesibility">file-access</legend>
+                    <div class="radio">
+                        <span class="radioAndCheckBoxLabel"><input name="file-access" id="aspect.submission.StepTransformer.field.file-access-public" title="file-access" type="radio" value="public" checked=""><label for="aspect.submission.StepTransformer.field.file-access-public">Open access</label></span>
+                    </div>
+
+                    <div class="radio">
+
+                    </div>
+
+
+
+                </fieldset>
+                <p class="help-block">Über Libdrive können Forschungsdaten nur Open Access veröffentlicht werden. Wenn Sie die Dateien erst nach einem Embargo freischalten wollen, nehmen Sie bitte mit uns Kontakt auf <a>research-collection@library.ethz.ch</a></p>
+            </div>
+        </div>
+    </li>
                             </fieldset>
                             <fieldset id="aspect_submission_StepTransformer_list_submit-upload-new" class="">
 
