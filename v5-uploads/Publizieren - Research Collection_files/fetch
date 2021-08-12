@@ -1,0 +1,14 @@
+
+wget -m https://test.research-collection.ethz.ch/themes/Mirage2/vendor/respond/dest/respond.min.js
+
+wget -m https://test.research-collection.ethz.ch/themes/Mirage2/vendor/fontawesome/fonts/fontawesome-webfont.woff?v=4.2.0
+wget -m https://test.research-collection.ethz.ch/reference/ajax/selection
+wget -m https://test.research-collection.ethz.ch/reference/ajax/get
+wget -m https://test.research-collection.ethz.ch/JSON/mqm/i18n
+
+wget -m https://test.research-collection.ethz.ch/themes/Mirage2/vendor/fontawesome/fonts/fontawesome-webfont.ttf?v=4.2.0
+wget -m https://test.research-collection.ethz.ch/themes/Mirage2/vendor/extensions/MathMenu.js?V=2.7.1
+wget -m https://test.research-collection.ethz.ch/themes/Mirage2/vendor/extensions/MathZoom.js?V=2.7.1
+wget -m https://test.research-collection.ethz.ch/themes/Mirage2/vendor/jquery-ui/themes/base/jquery-ui.css
+wget -m https://test.research-collection.ethz.ch/themes/Mirage2/vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.ttf
+wget -m https://test.research-collection.ethz.ch/themes/Mirage2/vendor/bootstrap-sass-official/assets/fonts/bootstrap/glyphicons-halflings-regular.woff
